@@ -9,5 +9,27 @@
     <body bgcolor="lightgreen">
     
         <h1 style="text-align: center;"><span style="color: red">HTML Bàsic</span></h1>
+        <h2>Enllaços a HTML</h2>
+            <UL>
+                <LI>L'etiqueta <a> s'utilitza per crear enllaços (links) a altres pàgines web, documents, seccions dins de la mateixa
+                    pàgina o qualsevol altre recurs.</LI><BR>
+
+                <LI>L'element essencial per als enllaços és l'atribut href que defineix l'URL a la qual redirigeix l'usuari.</LI><BR>
+
+                <LI>El text entre l'etiqueta d'obertura i la de tancament és el que els usuaris veuran i podran clicar per ser redirigits.</LI>
+            </UL>
+        <h3>Atribults d'enllaços</h3>
+            <ol>
+                <li>href (hypertext reference): Defineix la URL de destinació de l'enllaç.<br>
+                    Pot ser un enllaç absolut (una URL completa) o relatiu (camí dins del mateix domini).</li><br>
+
+                <li>target:
+                    Defineix on s'obrirà l'enllaç: a la mateixa pestanya, en una nova pestanya o en un nou marc.<br>
+                    Els valors més habituals són:<br>
+                    _blank: Obre l'enllaç en una nova pestanya. <br>
+                    _self: Obre l'enllaç a la mateixa pestanya(valor predeterminat).</li>
+            </ol>
+            <p>exemple:</p>
+            <img src="/Imatges/enllaços.PNG" alt="Exemple" width="750" height="220">
 </body>
 </html>
