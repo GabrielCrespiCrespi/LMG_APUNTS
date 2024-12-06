@@ -7,6 +7,41 @@
     <title>Aplicació d'estils</title>
 </head>
 <body class="body_cssBasic">
-    
+    <h1>Aplicació d'estils</h1>
+    <h3>El CSS es pot aplicar a un document HTML de tres maneres principals: en línia, incrustat (dins de l'HTML) i extern
+        (mitjançant un fitxer CSS separat). Cadascuna d'aquestes formes té els seus propòsits i usos.</h3>
+    <ol>
+        <li>Estils en línia</li>
+            <p class="text_frases">Els estils en línia s'apliquen directament a un element HTML, utilitzant l'atribut style dins de la mateixa etiqueta de
+                l'element. Aquest mètode és adequat per a aplicar estils a un sol element de manera ràpida, però no és recomanable
+                 per a pàgines grans, ja que dificulta la mantenibilitat.</p>
+                    <ol>
+                        <li>Aventatges: Aplicació ràpida i directa a l'element.</li>
+                        <li>1. Desventatges: Dificulta la mantenibilitat en llocs webs grans perquè caldria aplicar l'estil a cada element manualment.<br>
+                            2. No aprofita la capacitat de reutilitzar els estils.</li>
+                    </ol><br>
+
+                        
+            <li>Estils incrustats</li>
+
+                <p class="text_frases"> Els estils incrustats es col·loquen dins de la secció &lt;head&gt d'un document HTML, dins d'una etiqueta &lt;style&gt. Aquests estils s'apliquen a tots els elements HTML de la pàgina actual.</p>
+<ol>
+                        <li>Aventatges: Més eficient que els estils en línia, ja que es poden aplicar estils a diversos elements d'una mateixa pàgina des d'un sol lloc.</li>
+                        <li>1. Desventatges: Dificulta la mantenibilitat i llegibilitat en llocs webs grans perquè caldria aplicar l'estil a cada element manualment.<br>
+                            2. Només afecta la pàgina on s'aplica, no es reutilitza entre diverses pàgines.</li>
+                    </ol><br>
+        <li>Estils externs</li>
+        
+        <p class="text_frases">Els estils externs s'emmagatzemen en un fitxer CSS separat, i s'enllacen al document HTML utilitzant l'etiqueta &lt;link&gt
+            dins de la secció &lt;head&gt. Aquest és el mètode més recomanat per a la majoria de llocs webs, especialment si consten
+            de múltiples pàgines.</p>
+
+            <ol>
+                <li>Aventatges: 1.Permet reutilitzar els estils en diverses pàgines web, facilitant la consistència i mantenibilitat. <br>
+                  2.Facilita la separació entre el contingut (HTML) i l'estil (CSS). <br>
+                  3. Optimitza el temps de càrrega del lloc web, ja que els navegadors poden emmagatzemar en memòria cau els fitxers CSS.</li>
+                  <li>Desventatges: Si el fitxer CSS extern no es carrega correctament, la pàgina es mostrarà sense estils.</li>
+            </ol>
+    </ol>
 </body>
 </html>

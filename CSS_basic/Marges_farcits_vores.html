@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propietats de text i fonts</title>
+</head>
+<body class="body_cssBasic">
+    <h1>Màrges, farcits i vores en CSS</h1>
+    <p>Els marges (margin), els farcits (padding) i les vores (border) són part del model de caixa en CSS, que descriu com es disposen els elements en la pàgina. Aquestes propietats permeten ajustar l'espai exterior i interior d'un element, així com definir-ne els límits visuals amb una vora.</p>
+    <ul>
+        <li>Marges (margin): La propietat margin controla l'espai exterior d'un element, és a dir, l'espai que hi ha entre un element i els altres elements que l’envolten. Els marges es poden definir de manera individual per a cadascun dels quatre costats de l'element (superior, dret, inferior, esquerre) o de manera global per a tots els costats alhora.</li><br>
+        <li>Farcits (padding): La propietat padding controla l'espai interior d'un element, és a dir, l'espai entre el contingut d'un element (com text o imatges) i les seves vores. Igual que amb els marges, els farcits es poden definir per a tots els costats o per a cadascun individualment.</li><br>
+        <li>Vores (border): La propietat border s'utilitza per afegir una vora al voltant d'un element. Aquesta propietat té diversos subatributs:
+            <ol><br>
+                <li>Amplada de la vora (border-width): defineix el gruix de la vora.</li>
+                <li>Estil de la vora (border-style): pot ser solid (sòlid), dashed (ratllat), dotted (puntets), etc.</li>
+                <li>Color de la vora (border-color): especifica el color de la vora.</li>
+            </ol>
+    </ul>
+    <p class="text_frases">Unitats comunes:</p>
+    <ul>
+        <li>Píxels (px): <br>
+            Unitat fixa, representa un punt a la pantalla.
+            <br>Exemple: margin: 20px;</li><br>
+        <li>Ems (em): <br>
+            Unitat relativa a la mida de la font de l'element pare.
+           <br> Exemple: padding: 2em; (2 vegades la mida de la font).</li><br>
+        <li>Rems (rem): <br>
+            Unitat relativa a la mida de la font de l'element arrel (html).
+           <br> Exemple: margin: 1.5rem; (1.5 vegades la mida de la font arrel).</li><br>
+        <li>Percentatge (%): <br>
+            Relativa a l'amplada o alçada del contenidor pare.
+           <br> Exemple: padding: 5%; (5% de l'amplada del contenidor).</li><br>
+        <li>Viewports (vw, vh): <br>
+            Relativa a la mida de la finestra visible.
+           <br> Exemple: margin: 5vw; (5% de l'amplada del viewport).</li><br>
+        <li>Vores (border-width): <br>
+            Gruixos predeterminats: thin, medium, thick o valors com px.
+            <br>Exemple: border: thick solid black;</li>
+    </ul>
+    <img src="/Imatges/margesCSS.png" alt="Exemple" width="650" height="480">
+</body>
+</html>
