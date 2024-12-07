@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors avançats en CSS</title>
+</head>
+<body class="body_cssAvançat">
+    <h1>Selectors avançats en CSS</h1>
+    <p>Els selectors avançats en CSS permeten aplicar estils amb molta més precisió i flexibilitat, permetent seleccionar elements específics en funció de la seva posició, relació amb altres elements o atributs.</p>
+    <ol>
+        <li>Selectors d'atribut</li>
+            <p class="text_frases">Els selectors d'atribut permeten aplicar estils als elements HTML que contenen un determinat atribut o valor d'atribut. Són especialment útils per estilitzar elements de formularis o en casos en què utilitzis atributs personalitzats.</p><br>
+        <li>Selectors combinats</li>  
+            <p class="text_frases">Els selectors combinats permeten seleccionar elements que tenen una relació específica amb altres elements dins del document. Els combinadors més comuns són:</p>  
+            <ol>
+                <li>Combinador de descendents ( ): Selecciona tots els elements que són descendents (fills, nets, etc.) d'un element pare.</li>
+                <li>Combinador de fills directes (>): Selecciona només els fills directes d'un element pare.</li>
+                <li>Combinador de germans adjacents (+): Selecciona l'element que està just després d'un altre element germà..</li>
+                <li>Combinador de germans generals (~): Selecciona tots els germans que segueixen un element determinat dins del mateix pare.</li>
+            </ol><br>
+        <li>Selectors pseudo-classe</li>
+            <p class="text_frases">Les pseudo-classes són selectors que s'utilitzen per aplicar estils a un element en un estat o condició particular. Això permet canviar l'estil d'un element quan l'usuari hi interactua o quan l'element compleix certs criteris.</p>
+            <ul>
+                <li>:hover: Aplica estils quan l'usuari passa el ratolí per sobre de l'element.</li>
+                <li>:nth-child(): Selecciona elements en funció de la seva posició entre els seus germans.</li>
+                <li>:first-of-type: Selecciona el primer element del seu tipus dins del seu pare.</li>
+                <li>:not(): Selecciona tots els elements excepte aquells que coincideixin amb el selector especificat.</li>
+            </ul><br>
+
+        <li>Selectors pseudo-element</li>
+            <p class="text_frases">Els pseudo-elements permeten aplicar estils a una part específica d'un element, com el seu contingut abans o després, o una línia de text. Els pseudo- elements més comuns són ::before i ::after.</p>
+            <ul>
+                <li>::before: Afegeix contingut o estils abans del contingut real d'un element.</li>
+                <li>::after: Afegeix contingut o estils després del contingut real d'un element.</li>
+            </ul>
+    </ol>
+    <a href="Index.html">Return LOBBY</a>
+</body>
+</html>

@@ -8,5 +8,35 @@
 </head>
 <body class="body_cssBasic">
     <h1>Posicionament bàsic</h1>
+        <p>El CSS ofereix diverses tècniques per controlar la ubicació dels elements en una pàgina web. La propietat clau per al posicionament és position, que té diversos valors per a definir com es posiciona un element respecte al seu element contenidor o al document.</p>
+            <ol>
+                <li>La propietat position</li>
+                <p class="text_frases">La propietat position permet especificar el mètode de posicionament d'un element. Els valors més comuns són:</p>
+                    <ol>
+                        <li><strong>Static</strong> (per defecte): Els elements es posicionen de manera normal, seguint el flux del document. No es pot ajustar manualment amb coordenades.</li>
+                        <li><strong>Relative:</strong> Es posiciona l'element respecte a la seva posició original en el flux del document. Es poden utilitzar coordenades per moure'l lleugerament (dalt, baix, esquerra o dreta).</li>
+                        <li><strong>Absolute:</strong> L'element es treu del flux del document i es posiciona respecte al seu element contenidor més proper que tingui una posició definida. Si no hi ha cap contenidor definit, es posiciona respecte a la pàgina.</li>
+                        <li><strong>Fixed:</strong> L'element es treu del flux del document i es posiciona respecte a la finestra del navegador. Es manté fix fins i tot quan l'usuari fa desplaçaments.</li>
+                        <li><strong>Sticky:</strong> L'element es comporta com relative fins que arriba a un punt en el desplaçament de la pàgina, després del qual es comporta com fixed.</li>
+                    </ol><br><br>
+                <li>Propietats de posicionament</li>
+                    <p class="text_frases">Quan es defineix la propietat position com relative, absolute, fixed o sticky, pots utilitzar les propietats top, right, bottom, i left per especificar la distància de l'element respecte als seus límits. <br><br>
+                    Exemples:</p>
+                        <ul>
+                            <li>top: 10px;: Moure l'element 10 píxels cap avall des del límit superior.</li>
+                            <li>right: 20px;: Moure l'element 20 píxels cap a l'esquerra des del límit dret.</li>
+                        </ul><br><br>
+                <li>Posicionament absolut (position: absolute)</li>
+                        <p class="text_frases">Amb position: absolute, l'element es treu completament del flux normal del document i es posiciona respecte al seu element contenidor més proper amb position: relative, absolute, o fixed.</p>
+                <li>Posicionament fix (position: fixed)</li>
+                        <p class="text_frases">Els elements amb position: fixed es mantenen en una ubicació fixa a la pantalla fins i tot quan l'usuari fa desplaçaments. Es posicionen respecte a la finestra del navegador.</p><br>
+                <li>Posicionament enganxós (position: sticky)</li>
+                        <p class="text_frases">Els elements amb position: sticky es comporten com relative fins que l'usuari es desplaça per la pàgina i arriba a un punt especificat, després del qual l'element es comporta com fixed.</p><br>
+                <li>Propietat z-index</li>
+                        <p class="text_frases">La propietat z-index es fa servir per controlar l'ordre de superposició dels elements posicionats (relative, absolute, fixed o sticky). Els valors més alts de z-index col·loquen l'element davant d'altres elements amb valors inferiors.</p>
+            </ol>
+
+    <img src="/Imatges/posicionamentCSS.png" alt="Exemple" width="540" height="700">
+    <a href="Index.html">Return LOBBY</a>
 </body>
 </html>

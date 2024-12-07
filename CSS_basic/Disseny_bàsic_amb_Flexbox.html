@@ -8,5 +8,46 @@
 </head>
 <body class="body_cssBasic">
     <h1>Disseny bàsic amb flexbox</h1>
+    <P>Flexbox és un sistema de disseny en CSS que proporciona una manera molt eficient de distribuir l'espai entre els elements i alinear-los dins d'un contenidor, fins i tot quan la mida dels elements és desconeguda o dinàmica. Flexbox és ideal per crear dissenys de pàgines adaptatives, ja que facilita l'alineació, distribució i ordenació dels elements dins d'un contenidor.</P>
+        <ol>
+            <li>1. El contenidor flex (display: flex)</li>
+                <p class="text_frases">El punt de partida per utilitzar Flexbox és establir display: flex en l'element contenidor. Aquest contenidor es coneix com a contenidor flex, i els seus elements fills es coneixen com a elements flex. Un cop activat el display: flex, pots utilitzar diverses propietats per ajustar com es distribueixen els elements dins del contenidor.</p>
+                <img src="/Imatges/flex1.png" alt="Exemple" width="250" height="180"><br><br>
+            <li>Direcció del flux (flex-direction)</li>
+                <p class="text_frases">Per defecte, els elements flex es disposen en fila horitzontalment. Pots
+                    canviar la direcció amb la propietat flex-direction. <br><br>
+                Els valors més comuns són;</p>
+                <ul>
+                    <li>Row: Els elements es col·loquen en fila (horitzontal) (valor per defecte).</li>
+                    <li>Row-reverse: Els elements es col·loquen en fila però en ordre invers.</li>
+                    <li>Column: Els elements es col·loquen en columna (vertical).</li>
+                    <li>Column-reverse: Els elements es col·loquen en columna però en ordre invers.</li>
+                </ul><br>
+            <li>Alineació horitzontal (justify-content)</li>
+                <p class="text_frases">La propietat justify-content controla l'alineació dels elements al llarg de l'eix principal (horitzontal per defecte). Pots distribuir els elements flex de diferents maneres dins del contenidor.
+                    <br><br>Els valors més comuns són:</p>
+                        <ul>
+                            <li>Flex-start: Els elements s'alineen al començament del contenidor.</li>
+                            <li>Flex-end: Els elements s'alineen al final del contenidor.</li>
+                            <li>Center: Els elements es centren dins del contenidor.</li>
+                            <li>Space-between: Es distribueixen uniformement amb espai entre ells.</li>
+                            <li>Space-around: Els elements tenen espai al voltant de cadascun.</li>
+                        </ul><br>
+            <li>Alineació vertical (align-items)</li>
+            <p class="text_frases">La propietat align-items controla l'alineació dels elements al llarg de l'eix transversal (vertical si la direcció és horitzontal). Aquesta propietat determina com s'alineen els elements flex dins del contenidor en relació amb la seva alçada. <br><br>
+                Els valors més comuns sóm:</p>
+                <ul>
+                    <li>Stretch: Els elements s'estiren per omplir el contenidor (valor per defecte).</li>
+                    <li>flex-start: Els elements s'alineen a la part superior del contenidor.</li>
+                    <li>flex-end: Els elements s'alineen a la part inferior del contenidor.</li>
+                    <li>center: Els elements es centren verticalment dins del contenidor.</li>
+                    <li>baseline: Els elements s'alineen segons la seva línia de base de text.</li>
+                </ul><br>
+        <li>Control de l'espai que ocupa cada element (flex-grow)</li>
+                <p class="text_frases">La propietat flex-grow especifica com els elements flex creixen dins del contenidor per ocupar l'espai disponible. Cada element es pot assignar un valor numèric que indica quant ha de créixer en relació amb els altres elements. Si tots els elements tenen flex-grow: 1, l'espai disponible es distribuirà de manera uniforme.</p>
+    </ol>
+
+    <img src="/Imatges/flex5.png" alt="Exemple" width="550" height="80"><br><br>
+    <a href="Index.html">Return LOBBY</a>
 </body>
 </html>

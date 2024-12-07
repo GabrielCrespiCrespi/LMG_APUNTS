@@ -7,6 +7,34 @@
     <title>Dimensions i caixes</title>
 </head>
 <body class="body_cssBasic">
-    <p>Dimensions i caixes</p>
+    <h1>Dimensions i caixes</h1>
+    <p>El CSS utilitza el model de caixa per representar els elements d'una pàgina web. Cada element es considera com una caixa rectangular que conté el contingut, farcits, marges i vores. És important entendre aquest model perquè controla com es distribueixen i s'ajusten els elements dins de la pàgina.</p>
+    <p class="text_frases">El model de caixa es compon de quatre parts principals:</p>
+    <ol>
+        <li>Contingut: El contingut real de l'element, com text, imatges o altres elements.</li>
+        <li>Farcit (padding): L'espai entre el contingut i la vora.</li>
+        <li>Vora (border): El límit al voltant del farcit.</li>
+        <li>Marge (margin): L'espai extern entre la vora i altres elements.</li>
+    </ol>
+    <p>Formes de editar les caixes:</p>
+    <ol>
+        <li>Propietats de dimensions (width i height): Les propietats width (amplada) i height (alçada) s'utilitzen per definir la mida d'un element. Aquests valors es poden definir en unitats fixes com píxels (px) o unitats relatives com percentatges (%), que depenen de la mida del seu element contenidor.</li><br>
+        <img src="/Imatges/caixes1.png" alt="Exemple" width="420" height="240"><br><br>
+        <li>El model de caixa en CSS: El model de caixa estableix com es calculen les dimensions d'un element tenint en compte les propietats de marges, farcits, i vores. Per defecte, la mida de width i height només afecta el contingut. Per incloure el farcit i la vora dins de les dimensions de l'element, es pot utilitzar la propietat box-sizing.</li>
+        <p class="text_frases">La propietat box-sizing controla com es calculen les dimensions totals de l'element. Hi ha dues opcions principals:</p>
+            <ol>
+                <li>content-box (valor per defecte): Només inclou el contingut en les dimensions, mentre que les vores i els farcits s'afegeixen a part.</li>
+                <li>border-box: Inclou el contingut, el farcit i la vora dins de les dimensions especificades.</li>
+            </ol><br><br>
+        <li>Control del desbordament (overflow): Quan el contingut d'un element és més gran que les dimensions especificades, el CSS ofereix la propietat overflow per controlar com es mostra el contingut que desborda.</li>
+            <p class="text_frases">Els valors més comuns són:</p>
+                <ol>
+                    <li>Visible: El contingut que desborda es mostra fora de l'element (valor per defecte).</li>
+                    <li>Hidden: El contingut que desborda es retalla i no es mostra.</li>
+                    <li>Scroll: Mostra barres de desplaçament, encara que el contingut no desbordi.</li>
+                    <li>Auto: Mostra barres de desplaçament només si el contingut desborda.</li>
+                </ol>
+    </ol>
+    <a href="Index.html">Return LOBBY</a>
 </body>
 </html>

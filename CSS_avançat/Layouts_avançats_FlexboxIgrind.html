@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts amb Flexbox i Grid</title>
+</head>
+<body class="body_cssAvançat">
+    <h1>Layouts amb Flexbox i Grid</h1>
+    <p>Quan es tracta de crear dissenys flexibles, adaptables i organitzats, Flexbox i CSS Grid són les dues eines més poderoses del CSS. Amb elles pots controlar la disposició dels elements en la pàgina, ja sigui en una fila, columna o en quadrícules complexes, adaptant els elements fàcilment a diferents mides de pantalla i requeriments.</p>
+    <ol>
+        <li>Flexbox avançat</li>
+        <p class="text_frases">Flexbox és una eina molt flexible per crear dissenys en fila o columna, on els elements s'alineen i ajusten automàticament segons l'espai disponible.</p>
+            <ul>
+                <li>flex-shrink: Controla com es redueix la mida d'un element quan no hi ha prou espai disponible. Valors més grans permeten que l'element es redueixi més.</li>
+                <li>align-self: Permet que un sol element en un contenidor flex tingui una alineació diferent a la resta d'elements. Els valors poden ser flex-start, flex-end, center, baseline o stretch.</li>
+            </ul>
+        <p class="text_frases">Casos comuns per utilitzar flexBox:</p>
+            <ul>
+                <li>Quan vols alinear elements en fila o columna, com botons en una barra de navegació o imatges en una galeria.</li>
+                <li>Quan vols distribuir l'espai entre elements en una fila (per exemple, centrant un element o espaiant-los uniformement).</li>
+                <li>Quan els elements han de créixer o reduir-se per omplir l'espai disponible, com en una barra lateral o una fila de cartes.</li>
+            </ul><br>
+        <li>Grind Layout: creació de quadrícules</li>
+            <p class="text_frases">CSS Grid Layout és una eina més potent que Flexbox quan es tracta de crear layouts en dues dimensions (filera i columna). Grid permet col·locar elements en una quadrícula amb molta precisió, controlant la mida de les files i columnes, i permetent que els elements s'ajustin a l'espai disponible. <br>
+            <br>Propietats clau en CSS Grind</p>
+                <ul>
+                    <li>grid-template-columns i grid-template-rows: Defineixen el nombre i la mida de les columnes i files dins del contenidor grid.</li>
+                    <li>grid-column i grid-row: Permeten que un element ocupi diverses columnes o files dins de la quadrícula.</li>
+                    <li>gap: Defineix l'espai entre les files i columnes de la quadrícula.</li>
+                </ul>
+
+            <p class="text_frases">Casos comuns per utilitzar CSS grind:</p>
+            <ul>
+                <li>Quan vols crear una pàgina amb una estructura complexa (com una pàgina amb capçalera, barra lateral, contingut principal i peu de pàgina).</li>
+                <li>Quan tens un disseny en format de quadrícula amb files i columnes, com un tauler de fotos o un disseny de cartes de productes.</li>
+                <li>Quan vols controlar exactament on va cada element en la quadrícula (pots col·locar elements en qualsevol cel·la de la quadrícula).</li>
+            </ul><br><br>
+        <li>Ús combinat de Flexbox i Grid</li>
+            <p class="text_frases">Tot i que Flexbox i Grid es poden utilitzar per separat, sovint és útil combinar-los per obtenir el millor de tots dos. Per exemple, pots utilitzar Grid per definir la disposició general d'una pàgina (files i columnes) i utilitzar Flexbox dins d'algunes àrees per ajustar l'alineació dels elements.</p>
+    </ol>
+    <a href="Index.html">Return LOBBY</a>
+</body>
+</html>
